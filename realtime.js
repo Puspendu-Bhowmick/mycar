@@ -24,7 +24,7 @@ var Realtime = function() {
 	var clientId = "d:" + orgId + ":" + deviceType + ":" +deviceId;
 
 	console.log("clientId: " + clientId);
-	var hostname = orgId+".messaging.internetofthings.ibmcloud.com";
+	var hostname = orgId+".internetofthings.ibmcloud.com";
 	var client;
 
 
